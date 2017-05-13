@@ -1,0 +1,20 @@
+May 13 05:55:06 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/util.py", line 51, in __koe
+    func(*args, **kwargs)
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/faucet.py", line 441, in _packet_in_handler
+    flowmods = valve.rcv_packet(dp_id, self.valves, in_port, vlan_vid, pkt)
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/valve.py", line 961, in rcv_packet
+    self.DDOSWatcher.recv_pkt(pkt)
+AttributeError: 'Valve' object has no attribute 'DDOSWatcher'
+May 13 06:21:20 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/util.py", line 51, in __koe
+    func(*args, **kwargs)
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/faucet.py", line 441, in _packet_in_handler
+    flowmods = valve.rcv_packet(dp_id, self.valves, in_port, vlan_vid, pkt)
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/valve.py", line 961, in rcv_packet
+    if self.ddosWatcher.limit_pkt_src(pkt):
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/valve.py", line 1198, in limit_pkt_src
+    number_recent_occurence = self.pkt_num_recent_occurence(pkt[0])
+AttributeError: DDOSWatcher instance has no attribute 'pkt_num_recent_occurence'

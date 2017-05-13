@@ -1,0 +1,129 @@
+May 13 06:13:41 faucet DEBUG    DPID 1 (0x1) connected
+May 13 06:13:41 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 13 06:13:41 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 13 06:13:41 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:13:41 faucet.valve INFO     Port 1 modified
+May 13 06:13:41 faucet.valve INFO     Sending config for port 1
+May 13 06:13:41 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:13:41 faucet.valve INFO     Port 2 modified
+May 13 06:13:41 faucet.valve INFO     Sending config for port 2
+May 13 06:13:41 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 13 06:13:41 faucet.valve INFO     Port 1 added
+May 13 06:13:41 faucet.valve INFO     Sending config for port 1
+May 13 06:13:41 faucet.valve INFO     Port 2 added
+May 13 06:13:41 faucet.valve INFO     Sending config for port 2
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:13:42 faucet.valve INFO     learned 1 hosts on vlan 10
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:13:42 faucet.valve INFO     learned 2 hosts on vlan 10
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:13:42 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:13:42 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:13:42 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:13:42 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:13:42 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:13:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:13:42 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:15:36 faucet DEBUG    DPID 1 (0x1) connected
+May 13 06:15:36 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 13 06:15:36 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 13 06:15:36 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:15:36 faucet.valve INFO     Port 1 modified
+May 13 06:15:36 faucet.valve INFO     Sending config for port 1
+May 13 06:15:36 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:15:36 faucet.valve INFO     Port 2 modified
+May 13 06:15:36 faucet.valve INFO     Sending config for port 2
+May 13 06:15:36 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 13 06:15:36 faucet.valve INFO     Port 1 added
+May 13 06:15:36 faucet.valve INFO     Sending config for port 1
+May 13 06:15:36 faucet.valve INFO     Port 2 added
+May 13 06:15:36 faucet.valve INFO     Sending config for port 2
+May 13 06:21:17 faucet DEBUG    DPID 1 (0x1) connected
+May 13 06:21:17 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 13 06:21:17 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 13 06:21:17 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:21:17 faucet.valve INFO     Port 1 modified
+May 13 06:21:17 faucet.valve INFO     Sending config for port 1
+May 13 06:21:17 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:21:17 faucet.valve INFO     Port 2 modified
+May 13 06:21:17 faucet.valve INFO     Sending config for port 2
+May 13 06:21:17 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 13 06:21:17 faucet.valve INFO     Port 1 added
+May 13 06:21:17 faucet.valve INFO     Sending config for port 1
+May 13 06:21:17 faucet.valve INFO     Port 2 added
+May 13 06:21:17 faucet.valve INFO     Sending config for port 2
+May 13 06:21:20 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:21:20 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/util.py", line 51, in __koe
+    func(*args, **kwargs)
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/faucet.py", line 441, in _packet_in_handler
+    flowmods = valve.rcv_packet(dp_id, self.valves, in_port, vlan_vid, pkt)
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/valve.py", line 961, in rcv_packet
+    if self.ddosWatcher.limit_pkt_src(pkt):
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/valve.py", line 1198, in limit_pkt_src
+    number_recent_occurence = self.pkt_num_recent_occurence(pkt[0])
+AttributeError: DDOSWatcher instance has no attribute 'pkt_num_recent_occurence'
+May 13 06:22:17 faucet DEBUG    DPID 1 (0x1) connected
+May 13 06:22:17 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 13 06:22:17 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 13 06:22:17 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:22:17 faucet.valve INFO     Port 1 modified
+May 13 06:22:17 faucet.valve INFO     Sending config for port 1
+May 13 06:22:17 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:22:17 faucet.valve INFO     Port 2 modified
+May 13 06:22:17 faucet.valve INFO     Sending config for port 2
+May 13 06:22:17 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 13 06:22:17 faucet.valve INFO     Port 1 added
+May 13 06:22:17 faucet.valve INFO     Sending config for port 1
+May 13 06:22:17 faucet.valve INFO     Port 2 added
+May 13 06:22:17 faucet.valve INFO     Sending config for port 2
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:22:18 faucet.valve INFO     learned 1 hosts on vlan 10
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:22:18 faucet.valve INFO     learned 2 hosts on vlan 10
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:22:18 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:22:18 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:22:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:22:18 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:24:28 faucet DEBUG    DPID 1 (0x1) connected
+May 13 06:24:28 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 13 06:24:28 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 13 06:24:28 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:24:28 faucet.valve INFO     Port 1 modified
+May 13 06:24:28 faucet.valve INFO     Sending config for port 1
+May 13 06:24:28 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:24:28 faucet.valve INFO     Port 2 modified
+May 13 06:24:28 faucet.valve INFO     Sending config for port 2
+May 13 06:24:28 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 13 06:24:28 faucet.valve INFO     Port 1 added
+May 13 06:24:28 faucet.valve INFO     Sending config for port 1
+May 13 06:24:28 faucet.valve INFO     Port 2 added
+May 13 06:24:28 faucet.valve INFO     Sending config for port 2

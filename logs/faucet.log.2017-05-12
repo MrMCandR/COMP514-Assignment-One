@@ -1,0 +1,29 @@
+May 12 23:27:40 faucet DEBUG    RUNNING!!!
+May 12 23:27:43 faucet DEBUG    DPID 1 (0x1) connected
+May 12 23:27:43 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 12 23:27:43 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 12 23:27:43 faucet.valve INFO     ports changed/added: set([1, 2])
+May 12 23:27:43 faucet.valve INFO     Port 1 modified
+May 12 23:27:43 faucet.valve INFO     Sending config for port 1
+May 12 23:27:43 faucet.valve INFO     ports changed/added: set([1, 2])
+May 12 23:27:43 faucet.valve INFO     Port 2 modified
+May 12 23:27:43 faucet.valve INFO     Sending config for port 2
+May 12 23:27:43 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 12 23:27:43 faucet.valve INFO     Port 1 added
+May 12 23:27:43 faucet.valve INFO     Sending config for port 1
+May 12 23:27:43 faucet.valve INFO     Port 2 added
+May 12 23:27:43 faucet.valve INFO     Sending config for port 2
+May 12 23:27:44 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 12 23:27:44 faucet.valve DEBUG    ENTERED NEW CUSTOM RATE LIMIT FUNCTION
+May 12 23:27:44 faucet.valve DEBUG    00:00:00:00:00:01
+May 12 23:27:44 faucet.valve INFO     learned 1 hosts on vlan 10
+May 12 23:27:44 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 12 23:27:44 faucet.valve DEBUG    ENTERED NEW CUSTOM RATE LIMIT FUNCTION
+May 12 23:27:44 faucet.valve DEBUG    00:00:00:00:00:02
+May 12 23:27:44 faucet.valve INFO     learned 2 hosts on vlan 10
+May 12 23:27:50 faucet.valve WARNING  Port 1 down
+May 12 23:27:50 faucet.valve WARNING  Port 1 down
+May 12 23:27:50 faucet.valve WARNING  Port 2 down
+May 12 23:27:50 faucet.valve WARNING  Port 2 down
+May 12 23:27:50 faucet DEBUG    DPID 1 (0x1) disconnected
+May 12 23:27:50 faucet.valve WARNING  DPID 1 (0x1) down

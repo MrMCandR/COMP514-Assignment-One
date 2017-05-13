@@ -1,0 +1,362 @@
+May 08 20:42:23 faucet DEBUG    DPID 1 (0x1) connected
+May 08 20:42:23 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 20:42:23 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 20:42:23 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:42:23 faucet.valve INFO     Port 1 modified
+May 08 20:42:23 faucet.valve INFO     Sending config for port 1
+May 08 20:42:23 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:42:23 faucet.valve INFO     Port 2 modified
+May 08 20:42:23 faucet.valve INFO     Sending config for port 2
+May 08 20:42:23 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 20:42:23 faucet.valve INFO     Port 1 added
+May 08 20:42:23 faucet.valve INFO     Sending config for port 1
+May 08 20:42:23 faucet.valve INFO     Port 2 added
+May 08 20:42:23 faucet.valve INFO     Sending config for port 2
+May 08 20:42:23 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 20:42:23 faucet.valve INFO     learned 1 hosts on vlan 10
+May 08 20:42:24 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 20:42:24 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:44:23 faucet DEBUG    DPID 1 (0x1) connected
+May 08 20:44:23 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 20:44:23 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 20:44:23 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:44:23 faucet.valve INFO     Port 1 modified
+May 08 20:44:23 faucet.valve INFO     Sending config for port 1
+May 08 20:44:23 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:44:23 faucet.valve INFO     Port 2 modified
+May 08 20:44:23 faucet.valve INFO     Sending config for port 2
+May 08 20:44:23 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 20:44:23 faucet.valve INFO     Port 1 added
+May 08 20:44:23 faucet.valve INFO     Sending config for port 1
+May 08 20:44:23 faucet.valve INFO     Port 2 added
+May 08 20:44:23 faucet.valve INFO     Sending config for port 2
+May 08 20:45:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 20:45:18 faucet.valve INFO     learned 1 hosts on vlan 10
+May 08 20:45:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 20:45:18 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:45:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 20:45:18 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 20:48:17 faucet.valve WARNING  Port 1 down
+May 08 20:48:17 faucet.valve WARNING  Port 2 down
+May 08 20:48:17 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 20:48:17 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 20:48:25 faucet DEBUG    DPID 1 (0x1) connected
+May 08 20:48:25 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 20:48:25 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 20:48:25 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:48:25 faucet.valve INFO     Port 1 modified
+May 08 20:48:25 faucet.valve INFO     Sending config for port 1
+May 08 20:48:26 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:48:26 faucet.valve INFO     Port 2 modified
+May 08 20:48:26 faucet.valve INFO     Sending config for port 2
+May 08 20:48:26 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 20:48:26 faucet.valve INFO     Port 1 added
+May 08 20:48:26 faucet.valve INFO     Sending config for port 1
+May 08 20:48:26 faucet.valve INFO     Port 2 added
+May 08 20:48:26 faucet.valve INFO     Sending config for port 2
+May 08 20:48:26 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 20:48:26 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:48:26 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 20:48:26 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:48:30 faucet.valve WARNING  Port 1 down
+May 08 20:48:30 faucet.valve WARNING  Port 2 down
+May 08 20:48:30 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 20:48:30 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 20:54:21 faucet DEBUG    DPID 1 (0x1) connected
+May 08 20:54:21 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 20:54:21 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 20:54:21 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:54:21 faucet.valve INFO     Port 1 modified
+May 08 20:54:21 faucet.valve INFO     Sending config for port 1
+May 08 20:54:21 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:54:21 faucet.valve INFO     Port 2 modified
+May 08 20:54:21 faucet.valve INFO     Sending config for port 2
+May 08 20:54:21 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 20:54:21 faucet.valve INFO     Port 1 added
+May 08 20:54:21 faucet.valve INFO     Sending config for port 1
+May 08 20:54:21 faucet.valve INFO     Port 2 added
+May 08 20:54:21 faucet.valve INFO     Sending config for port 2
+May 08 20:54:22 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 20:54:22 faucet.valve INFO     learned 1 hosts on vlan 10
+May 08 20:54:23 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 20:54:23 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:54:31 faucet.valve WARNING  Port 1 down
+May 08 20:54:31 faucet.valve WARNING  Port 2 down
+May 08 20:54:31 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 20:54:31 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 20:54:33 faucet DEBUG    DPID 1 (0x1) connected
+May 08 20:54:33 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 20:54:33 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 20:54:33 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:54:33 faucet.valve INFO     Port 1 modified
+May 08 20:54:33 faucet.valve INFO     Sending config for port 1
+May 08 20:54:33 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:54:33 faucet.valve INFO     Port 2 modified
+May 08 20:54:33 faucet.valve INFO     Sending config for port 2
+May 08 20:54:33 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 20:54:33 faucet.valve INFO     Port 1 added
+May 08 20:54:33 faucet.valve INFO     Sending config for port 1
+May 08 20:54:33 faucet.valve INFO     Port 2 added
+May 08 20:54:33 faucet.valve INFO     Sending config for port 2
+May 08 20:54:33 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 20:54:33 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:54:33 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 20:54:33 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:54:46 faucet.valve WARNING  Port 1 down
+May 08 20:54:46 faucet.valve WARNING  Port 2 down
+May 08 20:54:46 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 20:54:46 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 20:57:49 faucet DEBUG    DPID 1 (0x1) connected
+May 08 20:57:49 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 20:57:49 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 20:57:49 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:57:49 faucet.valve INFO     Port 1 modified
+May 08 20:57:49 faucet.valve INFO     Sending config for port 1
+May 08 20:57:49 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:57:49 faucet.valve INFO     Port 2 modified
+May 08 20:57:49 faucet.valve INFO     Sending config for port 2
+May 08 20:57:49 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 20:57:49 faucet.valve INFO     Port 1 added
+May 08 20:57:49 faucet.valve INFO     Sending config for port 1
+May 08 20:57:49 faucet.valve INFO     Port 2 added
+May 08 20:57:49 faucet.valve INFO     Sending config for port 2
+May 08 20:57:49 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 20:57:49 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:57:49 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 20:57:49 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:57:52 faucet.valve WARNING  Port 1 down
+May 08 20:57:53 faucet.valve WARNING  Port 2 down
+May 08 20:57:53 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 20:57:53 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 20:58:08 faucet DEBUG    DPID 1 (0x1) connected
+May 08 20:58:08 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 20:58:08 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 20:58:08 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:58:08 faucet.valve INFO     Port 1 modified
+May 08 20:58:08 faucet.valve INFO     Sending config for port 1
+May 08 20:58:08 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:58:08 faucet.valve INFO     Port 2 modified
+May 08 20:58:08 faucet.valve INFO     Sending config for port 2
+May 08 20:58:08 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 20:58:08 faucet.valve INFO     Port 1 added
+May 08 20:58:08 faucet.valve INFO     Sending config for port 1
+May 08 20:58:08 faucet.valve INFO     Port 2 added
+May 08 20:58:08 faucet.valve INFO     Sending config for port 2
+May 08 20:58:08 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 20:58:08 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:58:09 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 20:58:09 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:59:30 faucet DEBUG    DPID 1 (0x1) connected
+May 08 20:59:30 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 20:59:30 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 20:59:30 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:59:30 faucet.valve INFO     Port 1 modified
+May 08 20:59:30 faucet.valve INFO     Sending config for port 1
+May 08 20:59:30 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 20:59:30 faucet.valve INFO     Port 2 modified
+May 08 20:59:30 faucet.valve INFO     Sending config for port 2
+May 08 20:59:30 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 20:59:30 faucet.valve INFO     Port 1 added
+May 08 20:59:30 faucet.valve INFO     Sending config for port 1
+May 08 20:59:30 faucet.valve INFO     Port 2 added
+May 08 20:59:30 faucet.valve INFO     Sending config for port 2
+May 08 20:59:51 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 20:59:51 faucet.valve INFO     learned 1 hosts on vlan 10
+May 08 20:59:51 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 20:59:51 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 20:59:51 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 20:59:51 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 21:00:06 faucet DEBUG    DPID 1 (0x1) connected
+May 08 21:00:06 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 21:00:06 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 21:00:06 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:00:06 faucet.valve INFO     Port 1 modified
+May 08 21:00:06 faucet.valve INFO     Sending config for port 1
+May 08 21:00:06 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:00:06 faucet.valve INFO     Port 2 modified
+May 08 21:00:06 faucet.valve INFO     Sending config for port 2
+May 08 21:00:06 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 21:00:06 faucet.valve INFO     Port 1 added
+May 08 21:00:06 faucet.valve INFO     Sending config for port 1
+May 08 21:00:06 faucet.valve INFO     Port 2 added
+May 08 21:00:06 faucet.valve INFO     Sending config for port 2
+May 08 21:00:15 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 21:00:15 faucet.valve INFO     learned 1 hosts on vlan 10
+May 08 21:00:15 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 21:00:15 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:04:35 faucet.valve WARNING  Port 1 down
+May 08 21:04:35 faucet.valve WARNING  Port 2 down
+May 08 21:04:35 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 21:04:35 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 21:25:40 faucet DEBUG    DPID 1 (0x1) connected
+May 08 21:25:40 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 21:25:40 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 21:25:40 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:25:40 faucet.valve INFO     Port 1 modified
+May 08 21:25:40 faucet.valve INFO     Sending config for port 1
+May 08 21:25:40 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:25:40 faucet.valve INFO     Port 2 modified
+May 08 21:25:40 faucet.valve INFO     Sending config for port 2
+May 08 21:25:40 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 21:25:40 faucet.valve INFO     Port 1 added
+May 08 21:25:40 faucet.valve INFO     Sending config for port 1
+May 08 21:25:40 faucet.valve INFO     Port 2 added
+May 08 21:25:40 faucet.valve INFO     Sending config for port 2
+May 08 21:25:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 21:25:42 faucet.valve INFO     learned 1 hosts on vlan 10
+May 08 21:25:42 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 21:25:42 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:25:45 faucet.valve WARNING  Port 1 down
+May 08 21:25:45 faucet.valve WARNING  Port 2 down
+May 08 21:25:45 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 21:25:45 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 21:25:49 faucet DEBUG    DPID 1 (0x1) connected
+May 08 21:25:49 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 21:25:49 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 21:25:49 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:25:49 faucet.valve INFO     Port 1 modified
+May 08 21:25:49 faucet.valve INFO     Sending config for port 1
+May 08 21:25:49 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:25:49 faucet.valve INFO     Port 2 modified
+May 08 21:25:49 faucet.valve INFO     Sending config for port 2
+May 08 21:25:49 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 21:25:49 faucet.valve INFO     Port 1 added
+May 08 21:25:49 faucet.valve INFO     Sending config for port 1
+May 08 21:25:49 faucet.valve INFO     Port 2 added
+May 08 21:25:49 faucet.valve INFO     Sending config for port 2
+May 08 21:25:49 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 21:25:49 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:25:49 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 21:25:49 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:25:53 faucet.valve WARNING  Port 1 down
+May 08 21:25:53 faucet.valve WARNING  Port 2 down
+May 08 21:25:53 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 21:25:53 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 21:26:41 faucet DEBUG    DPID 1 (0x1) connected
+May 08 21:26:41 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 21:26:41 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 21:26:41 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:26:41 faucet.valve INFO     Port 1 modified
+May 08 21:26:41 faucet.valve INFO     Sending config for port 1
+May 08 21:26:41 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:26:41 faucet.valve INFO     Port 2 modified
+May 08 21:26:41 faucet.valve INFO     Sending config for port 2
+May 08 21:26:41 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 21:26:41 faucet.valve INFO     Port 1 added
+May 08 21:26:41 faucet.valve INFO     Sending config for port 1
+May 08 21:26:41 faucet.valve INFO     Port 2 added
+May 08 21:26:41 faucet.valve INFO     Sending config for port 2
+May 08 21:26:41 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 21:26:41 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:26:41 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 21:26:41 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:26:44 faucet.valve WARNING  Port 1 down
+May 08 21:26:44 faucet.valve WARNING  Port 2 down
+May 08 21:26:44 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 21:26:44 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 21:27:59 faucet DEBUG    DPID 1 (0x1) connected
+May 08 21:27:59 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 21:27:59 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 21:27:59 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:27:59 faucet.valve INFO     Port 1 modified
+May 08 21:27:59 faucet.valve INFO     Sending config for port 1
+May 08 21:27:59 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:27:59 faucet.valve INFO     Port 2 modified
+May 08 21:27:59 faucet.valve INFO     Sending config for port 2
+May 08 21:27:59 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 21:27:59 faucet.valve INFO     Port 1 added
+May 08 21:27:59 faucet.valve INFO     Sending config for port 1
+May 08 21:27:59 faucet.valve INFO     Port 2 added
+May 08 21:27:59 faucet.valve INFO     Sending config for port 2
+May 08 21:27:59 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 21:27:59 faucet.valve INFO     learned 1 hosts on vlan 10
+May 08 21:27:59 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 21:27:59 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:28:06 faucet.valve WARNING  Port 1 down
+May 08 21:28:06 faucet.valve WARNING  Port 2 down
+May 08 21:28:06 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 21:28:06 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 21:31:52 faucet DEBUG    DPID 1 (0x1) connected
+May 08 21:31:52 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 21:31:52 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 21:31:52 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:31:52 faucet.valve INFO     Port 1 modified
+May 08 21:31:52 faucet.valve INFO     Sending config for port 1
+May 08 21:31:52 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:31:52 faucet.valve INFO     Port 2 modified
+May 08 21:31:52 faucet.valve INFO     Sending config for port 2
+May 08 21:31:52 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 21:31:52 faucet.valve INFO     Port 1 added
+May 08 21:31:52 faucet.valve INFO     Sending config for port 1
+May 08 21:31:52 faucet.valve INFO     Port 2 added
+May 08 21:31:52 faucet.valve INFO     Sending config for port 2
+May 08 21:31:52 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 21:31:52 faucet.valve INFO     learned 1 hosts on vlan 10
+May 08 21:31:52 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 21:31:52 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:31:55 faucet.valve WARNING  Port 1 down
+May 08 21:31:56 faucet.valve WARNING  Port 2 down
+May 08 21:31:56 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 21:31:56 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 21:43:10 faucet DEBUG    DPID 1 (0x1) connected
+May 08 21:43:10 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 21:43:10 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 21:43:10 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:43:10 faucet.valve INFO     Port 1 modified
+May 08 21:43:10 faucet.valve INFO     Sending config for port 1
+May 08 21:43:10 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:43:10 faucet.valve INFO     Port 2 modified
+May 08 21:43:10 faucet.valve INFO     Sending config for port 2
+May 08 21:43:10 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 21:43:10 faucet.valve INFO     Port 1 added
+May 08 21:43:10 faucet.valve INFO     Sending config for port 1
+May 08 21:43:10 faucet.valve INFO     Port 2 added
+May 08 21:43:10 faucet.valve INFO     Sending config for port 2
+May 08 21:43:11 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 21:43:11 faucet.valve INFO     learned 1 hosts on vlan 10
+May 08 21:43:11 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 21:43:11 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:43:14 faucet.valve WARNING  Port 1 down
+May 08 21:43:14 faucet.valve WARNING  Port 2 down
+May 08 21:43:14 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 21:43:14 faucet.valve WARNING  DPID 1 (0x1) down
+May 08 21:43:17 faucet DEBUG    DPID 1 (0x1) connected
+May 08 21:43:17 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 21:43:17 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 21:43:17 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:43:17 faucet.valve INFO     Port 1 modified
+May 08 21:43:17 faucet.valve INFO     Sending config for port 1
+May 08 21:43:17 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:43:17 faucet.valve INFO     Port 2 modified
+May 08 21:43:17 faucet.valve INFO     Sending config for port 2
+May 08 21:43:17 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 21:43:17 faucet.valve INFO     Port 1 added
+May 08 21:43:17 faucet.valve INFO     Sending config for port 1
+May 08 21:43:17 faucet.valve INFO     Port 2 added
+May 08 21:43:17 faucet.valve INFO     Sending config for port 2
+May 08 21:43:17 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 21:43:17 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:43:17 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 21:43:17 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:47:55 faucet DEBUG    DPID 1 (0x1) connected
+May 08 21:47:55 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 08 21:47:55 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 08 21:47:55 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:47:55 faucet.valve INFO     Port 1 modified
+May 08 21:47:55 faucet.valve INFO     Sending config for port 1
+May 08 21:47:55 faucet.valve INFO     ports changed/added: set([1, 2])
+May 08 21:47:55 faucet.valve INFO     Port 2 modified
+May 08 21:47:55 faucet.valve INFO     Sending config for port 2
+May 08 21:47:55 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 08 21:47:55 faucet.valve INFO     Port 1 added
+May 08 21:47:55 faucet.valve INFO     Sending config for port 1
+May 08 21:47:55 faucet.valve INFO     Port 2 added
+May 08 21:47:55 faucet.valve INFO     Sending config for port 2
+May 08 21:47:56 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 08 21:47:56 faucet.valve INFO     learned 1 hosts on vlan 10
+May 08 21:47:56 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 08 21:47:56 faucet.valve INFO     learned 2 hosts on vlan 10
+May 08 21:47:58 faucet.valve WARNING  Port 1 down
+May 08 21:47:58 faucet.valve WARNING  Port 2 down
+May 08 21:47:59 faucet DEBUG    DPID 1 (0x1) disconnected
+May 08 21:47:59 faucet.valve WARNING  DPID 1 (0x1) down

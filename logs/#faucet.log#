@@ -1,0 +1,118 @@
+
+DDOS ALERT: too many packets received from 00:01. Packet dropped
+May 13 04:47:33 faucet.config ERROR    Error in file /home/mininet/faucet/faucet.yaml (while scanning for the next token
+found character '\t' that cannot start any token
+  in "/home/mininet/faucet/faucet.yaml", line 12, column 1)
+May 13 04:50:14 faucet.config ERROR    Error in file /home/mininet/faucet/faucet.yaml (while scanning for the next token
+found character '\t' that cannot start any token
+  in "/home/mininet/faucet/faucet.yaml", line 15, column 1)
+May 13 04:50:52 faucet.config ERROR    Error in file /home/mininet/faucet/faucet.yaml (while scanning for the next token
+found character '\t' that cannot start any token
+  in "/home/mininet/faucet/faucet.yaml", line 15, column 1)
+May 13 04:51:50 faucet.config ERROR    Error in file /home/mininet/faucet/faucet.yaml (while scanning for the next token
+found character '\t' that cannot start any token
+  in "/home/mininet/faucet/faucet.yaml", line 15, column 1)
+May 13 04:52:47 faucet.config ERROR    Error in file /home/mininet/faucet/faucet.yaml (while scanning for the next token
+found character '\t' that cannot start any token
+  in "/home/mininet/faucet/faucet.yaml", line 15, column 1)
+May 13 04:52:56 faucet.config ERROR    Error in file /home/mininet/faucet/faucet.yaml (while scanning for the next token
+found character '\t' that cannot start any token
+  in "/home/mininet/faucet/faucet.yaml", line 15, column 1)
+May 13 04:53:21 faucet.config ERROR    Error in file /home/mininet/faucet/faucet.yaml (while scanning for the next token
+found character '\t' that cannot start any token
+  in "/home/mininet/faucet/faucet.yaml", line 15, column 1)
+May 13 04:53:58 faucet.config ERROR    Error in file /home/mininet/faucet/faucet.yaml (while scanning for the next token
+found character '\t' that cannot start any token
+  in "/home/mininet/faucet/faucet.yaml", line 16, column 1)
+May 13 04:55:31 faucet.config ERROR    Error in file /home/mininet/faucet/faucet.yaml (while scanning for the next token
+found character '\t' that cannot start any token
+  in "/home/mininet/faucet/faucet.yaml", line 15, column 33)
+May 13 04:57:05 faucet.config ERROR    Error in file /home/mininet/faucet/faucet.yaml (while scanning for the next token
+found character '\t' that cannot start any token
+  in "/home/mininet/faucet/faucet.yaml", line 16, column 1)
+May 13 04:57:49 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:03. Packet dropped
+May 13 04:57:52 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:04. Packet dropped
+May 13 04:57:56 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:01. Packet dropped
+May 13 04:58:01 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:03. Packet dropped
+May 13 04:58:01 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:03. Packet dropped
+May 13 04:58:12 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:03. Packet dropped
+May 13 04:58:25 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:05. Packet dropped
+May 13 04:58:26 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:05. Packet dropped
+May 13 04:58:26 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:05. Packet dropped
+May 13 04:58:30 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:03. Packet dropped
+May 13 04:58:35 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:04. Packet dropped
+May 13 04:58:42 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:01. Packet dropped
+May 13 05:00:22 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:02. Packet dropped
+May 13 05:01:16 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:03. Packet dropped
+May 13 05:01:18 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:04. Packet dropped
+May 13 05:01:19 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:05. Packet dropped
+May 13 05:01:23 faucet DEBUG    DPID 1 (0x1) connected
+May 13 05:01:23 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 13 05:01:23 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 13 05:01:23 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 05:01:23 faucet.valve INFO     Port 1 modified
+May 13 05:01:23 faucet.valve INFO     Sending config for port 1
+May 13 05:01:23 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 05:01:23 faucet.valve INFO     Port 2 modified
+May 13 05:01:23 faucet.valve INFO     Sending config for port 2
+May 13 05:01:23 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 13 05:01:23 faucet.valve INFO     Port 1 added
+May 13 05:01:23 faucet.valve INFO     Sending config for port 1
+May 13 05:01:23 faucet.valve INFO     Port 2 added
+May 13 05:01:23 faucet.valve INFO     Sending config for port 2
+May 13 05:01:23 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 05:01:23 faucet.valve DEBUG    ENTERED NEW CUSTOM RATE LIMIT FUNCTION
+May 13 05:01:23 faucet.valve DEBUG    00:00:00:00:00:02
+May 13 05:01:23 faucet.valve INFO     learned 1 hosts on vlan 10
+May 13 05:01:23 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 05:01:23 faucet.valve DEBUG    ENTERED NEW CUSTOM RATE LIMIT FUNCTION
+May 13 05:01:23 faucet.valve DEBUG    00:00:00:00:00:01
+May 13 05:01:23 faucet.valve INFO     learned 2 hosts on vlan 10
+May 13 05:01:28 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:03. Packet dropped
+May 13 05:01:55 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:03. Packet dropped
+May 13 05:02:04 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:01. Packet dropped
+May 13 05:02:06 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:04. Packet dropped
+May 13 05:02:18 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:05. Packet dropped
+May 13 05:06:56 faucet DEBUG    DPID 1 (0x1) connected
+May 13 05:06:56 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 13 05:06:56 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 13 05:06:56 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 05:06:56 faucet.valve INFO     Port 1 modified
+May 13 05:06:56 faucet.valve INFO     Sending config for port 1
+May 13 05:06:56 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 05:06:56 faucet.valve INFO     Port 2 modified
+May 13 05:06:56 faucet.valve INFO     Sending config for port 2
+May 13 05:06:56 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 13 05:06:56 faucet.valve INFO     Port 1 added
+May 13 05:06:56 faucet.valve INFO     Sending config for port 1
+May 13 05:06:56 faucet.valve INFO     Port 2 added
+May 13 05:06:56 faucet.valve INFO     Sending config for port 2
+May 13 05:07:05 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 05:07:05 faucet.valve DEBUG    ENTERED NEW CUSTOM RATE LIMIT FUNCTION
+May 13 05:07:05 faucet.valve DEBUG    00:00:00:00:00:01
+May 13 05:07:05 faucet.valve INFO     learned 1 hosts on vlan 10
+May 13 05:07:05 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 05:07:05 faucet.valve DEBUG    ENTERED NEW CUSTOM RATE LIMIT FUNCTION
+May 13 05:07:05 faucet.valve DEBUG    00:00:00:00:00:02
+May 13 05:07:05 faucet.valve INFO     learned 2 hosts on vlan 10

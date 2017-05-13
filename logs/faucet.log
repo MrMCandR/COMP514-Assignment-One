@@ -1,0 +1,470 @@
+May 13 06:25:40 faucet DEBUG    DPID 1 (0x1) connected
+May 13 06:25:40 faucet.valve INFO     Configuring DPID 1 (0x1)
+May 13 06:25:40 faucet.valve INFO     Delete VLAN vid:10 ports:1,2
+May 13 06:25:40 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:25:40 faucet.valve INFO     Port 1 modified
+May 13 06:25:40 faucet.valve INFO     Sending config for port 1
+May 13 06:25:40 faucet.valve INFO     ports changed/added: set([1, 2])
+May 13 06:25:40 faucet.valve INFO     Port 2 modified
+May 13 06:25:40 faucet.valve INFO     Sending config for port 2
+May 13 06:25:40 faucet.valve INFO     Configuring VLAN vid:10 ports:1,2
+May 13 06:25:40 faucet.valve INFO     Port 1 added
+May 13 06:25:40 faucet.valve INFO     Sending config for port 1
+May 13 06:25:40 faucet.valve INFO     Port 2 added
+May 13 06:25:40 faucet.valve INFO     Sending config for port 2
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:46 faucet.valve INFO     learned 1 hosts on vlan 10
+May 13 06:25:46 faucet.valve DEBUG    [OFPFlowMod(buffer_id=4294967295,command=3,cookie=1524372928,cookie_mask=0,flags=0,hard_timeout=0,idle_timeout=0,instructions=[],match=OFPMatch(oxm_fields={'eth_src': '00:00:00:00:00:01', 'vlan_vid': 4106}),out_group=4294967295,out_port=4294967295,priority=0,table_id=3), OFPFlowMod(buffer_id=4294967295,command=3,cookie=1524372928,cookie_mask=0,flags=0,hard_timeout=0,idle_timeout=0,instructions=[],match=OFPMatch(oxm_fields={'eth_dst': '00:00:00:00:00:01', 'vlan_vid': 4106}),out_group=4294967295,out_port=4294967295,priority=0,table_id=6), OFPFlowMod(buffer_id=4294967295,command=0,cookie=1524372928,cookie_mask=0,flags=0,hard_timeout=300,idle_timeout=0,instructions=[OFPInstructionGotoTable(len=8,table_id=6,type=1)],match=OFPMatch(oxm_fields={'eth_src': '00:00:00:00:00:01', 'in_port': 1, 'vlan_vid': 4106}),out_group=0,out_port=0,priority=9098,table_id=3), OFPFlowMod(buffer_id=4294967295,command=0,cookie=1524372928,cookie_mask=0,flags=0,hard_timeout=0,idle_timeout=300,instructions=[OFPInstructionActions(actions=[OFPActionPopVlan(len=8,type=18), OFPActionOutput(len=16,max_len=0,port=1,type=0)],type=4)],match=OFPMatch(oxm_fields={'eth_dst': '00:00:00:00:00:01', 'vlan_vid': 4106}),out_group=0,out_port=0,priority=9099,table_id=6)]
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:46 faucet.valve INFO     learned 2 hosts on vlan 10
+May 13 06:25:46 faucet.valve DEBUG    [OFPFlowMod(buffer_id=4294967295,command=3,cookie=1524372928,cookie_mask=0,flags=0,hard_timeout=0,idle_timeout=0,instructions=[],match=OFPMatch(oxm_fields={'eth_src': '00:00:00:00:00:02', 'vlan_vid': 4106}),out_group=4294967295,out_port=4294967295,priority=0,table_id=3), OFPFlowMod(buffer_id=4294967295,command=3,cookie=1524372928,cookie_mask=0,flags=0,hard_timeout=0,idle_timeout=0,instructions=[],match=OFPMatch(oxm_fields={'eth_dst': '00:00:00:00:00:02', 'vlan_vid': 4106}),out_group=4294967295,out_port=4294967295,priority=0,table_id=6), OFPFlowMod(buffer_id=4294967295,command=0,cookie=1524372928,cookie_mask=0,flags=0,hard_timeout=300,idle_timeout=0,instructions=[OFPInstructionGotoTable(len=8,table_id=6,type=1)],match=OFPMatch(oxm_fields={'eth_src': '00:00:00:00:00:02', 'in_port': 2, 'vlan_vid': 4106}),out_group=0,out_port=0,priority=9098,table_id=3), OFPFlowMod(buffer_id=4294967295,command=0,cookie=1524372928,cookie_mask=0,flags=0,hard_timeout=0,idle_timeout=300,instructions=[OFPInstructionActions(actions=[OFPActionPopVlan(len=8,type=18), OFPActionOutput(len=16,max_len=0,port=2,type=0)],type=4)],match=OFPMatch(oxm_fields={'eth_dst': '00:00:00:00:00:02', 'vlan_vid': 4106}),out_group=0,out_port=0,priority=9099,table_id=6)]
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:46 faucet.valve DEBUG    []
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:46 faucet.valve DEBUG    []
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:46 faucet.valve DEBUG    []
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:46 faucet.valve DEBUG    []
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:46 faucet.valve DEBUG    []
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:46 faucet.valve DEBUG    []
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:46 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:46 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:46 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:46 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:46 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:46 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:46 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:01 in_port:1 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:01. Packet dropped
+May 13 06:25:47 faucet.valve DEBUG    Packet_in DPID 1 (0x1) src:00:00:00:00:00:02 in_port:2 vid:10
+May 13 06:25:47 faucet.valve DEBUG    
+DDOS ALERT: too many packets received from 00:00:00:00:00:02. Packet dropped

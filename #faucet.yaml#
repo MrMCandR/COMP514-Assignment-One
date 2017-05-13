@@ -1,0 +1,14 @@
+version: 2
+
+dps:
+    mininet:
+        dp_id: 0x1
+        hardware: 'Open vSwitch'
+        interfaces:
+            1:
+                native_vlan: 10
+            2:
+                native_vlan: 10
+	   vlans:
+    10:
+        description: "Test VLAN"

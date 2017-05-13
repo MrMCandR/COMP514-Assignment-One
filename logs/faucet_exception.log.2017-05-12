@@ -1,0 +1,22 @@
+May 12 23:24:02 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/util.py", line 51, in __koe
+    func(*args, **kwargs)
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/faucet.py", line 447, in _packet_in_handler
+    flowmods = valve.rcv_packet(dp_id, self.valves, in_port, vlan_vid, pkt)
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/valve.py", line 948, in rcv_packet
+    if self._rate_limit_packet_ins_source(pkt):
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/valve.py", line 791, in _rate_limit_packet_ins_source
+    eth = pkt.get_protocol(ethernet.ethernet)
+NameError: global name 'ethernet' is not defined
+May 12 23:24:27 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/util.py", line 51, in __koe
+    func(*args, **kwargs)
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/faucet.py", line 447, in _packet_in_handler
+    flowmods = valve.rcv_packet(dp_id, self.valves, in_port, vlan_vid, pkt)
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/valve.py", line 948, in rcv_packet
+    if self._rate_limit_packet_ins_source(pkt):
+  File "/home/mininet/faucet/src/ryu_faucet/org/onfsdn/faucet/valve.py", line 791, in _rate_limit_packet_ins_source
+    eth = pkt.get_protocol(ethernet.ethernet)
+NameError: global name 'ethernet' is not defined
