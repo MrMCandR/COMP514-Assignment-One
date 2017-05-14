@@ -952,17 +952,10 @@ class Valve(object):
                 pkt_meta.vlan.vid)
 
             ofmsgs.extend(self.control_plane_handler(pkt_meta))
-
-        
-        #if self._rate_limit_packet_ins():
-            #print('RATE LIMITED:')
-            #return ofmsgs
             
+        # Check source for having recently sent too many packets (potential DDOS)
         if self.ddosWatcher.limit_pkt_src(pkt):
             return ofmsgs
-        
-        #if self._rate_limit_packet_ins_source(pkt):
-            #return ofmsgs
 
         ban_vlan_rules = self._vlan_learn_ban_rules(pkt_meta)
         if ban_vlan_rules:
@@ -1173,6 +1166,7 @@ class ArubaValve(Valve):
 
 
 class DDOSWatcher:
+    # Sliding window of recent packet information
     recent_packets = []
     # Number of packets kept in the sliding window
     packet_window_size = 50
@@ -1189,7 +1183,7 @@ class DDOSWatcher:
         self.logger = logger
 
     def limit_pkt_src(self, pkt):
-
+        # Extract source info from the packet
         eth = pkt.get_protocol(ethernet.ethernet)
         src = eth.src
 
@@ -1228,7 +1222,3 @@ class DDOSWatcher:
                 if int(time.time()) - stored_pkt[1] <= self.packet_receive_window:
                     count+=1
         return count
-    
-    def repeat(self):
-        #self.recv_pkt()
-        threading.Timer(0.2, self.repeat).start()
