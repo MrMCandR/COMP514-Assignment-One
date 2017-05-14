@@ -1192,6 +1192,14 @@ class DDOSWatcher:
 
         number_recent_occurence = self.pkt_num_recent_occurence(pkt[0])
 
+        # Add packet to sliding window, no packet drop required
+        self.recent_packets.insert(0,pkt)
+        if len(self.recent_packets) >= self.packet_window_size:
+            self.recent_packets.pop()
+            #print('Popped last packet from window')
+        #else:
+            #print('No pop required')
+
         if number_recent_occurence > self.packet_receive_max_count:
             # Packet won't be added to sliding window, packet drop required
             print('\nDDOS ALERT: too many recent packets from: ' + pkt[0] + ', recently seen: ' + str(number_recent_occurence) + ' packets. Dropping this packet.')
@@ -1201,15 +1209,8 @@ class DDOSWatcher:
 
         else:
             print('\nReceived packet from ' + pkt[0] + ', which has recently been seen: ' + str(number_recent_occurence) + ' times')
-
-            # Add packet to sliding window, no packet drop required
-            self.recent_packets.insert(0,pkt)
-            if len(self.recent_packets) >= self.packet_window_size:
-                self.recent_packets.pop()
-                print('POPPED LAST ITEM')
-            else:
-                print('NO POP REQUIRED')
-                
+            
+            # print the window of stored packets to the screen
             print(self.recent_packets)
             return False
                 
